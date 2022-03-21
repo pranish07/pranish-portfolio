@@ -39,6 +39,7 @@ function updateBlogList(blogs) {
             </div>   
         </div>
      </div>       
-        </li>`
+        </li> <br>`
   }).join("");
+  
 }

@@ -1,0 +1,8 @@
+li .project-box{
+    padding: 2.5rem;
+    border-radius:2rem;
+    
+}
+.project-box .project-desc{
+    padding:.5rem 0;
+}
