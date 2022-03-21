@@ -13,7 +13,7 @@ function updateBlogList(blogs) {
         <p class="">${post.tag_list
           .map((tags) => {
             return `<span class="link-primary blog-tags">${tags}</span>`;
-          })
+           })
           .join("")}</p>
         <img class="blog-image" src=${post.social_image}>
         <p class="blog-desc">${post.description}</p>
@@ -40,5 +40,5 @@ function updateBlogList(blogs) {
         </div>
      </div>       
         </li>`
-  });
+  }).join("");
 }
