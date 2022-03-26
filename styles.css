@@ -158,12 +158,12 @@ body {
   }
 
   .nav-pills li {
-    padding: 0;
+    padding: 2em;
   }
   .resume {
     left: 7em;
   }
-  .link {
+  /* .link {
     padding: 0;
-  }
+  } */
 }
