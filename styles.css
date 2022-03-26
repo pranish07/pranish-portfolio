@@ -137,26 +137,35 @@ body {
 }
 
 
- 
- /* @media (max-width: 900px) {
+/*  
+ @media (max-width: 900px) {
     body {
       max-width: 90%;
       width: 100%;
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+      height: 100%;
     }
-  
-    .list-item-inline {
-      display: inline;
-      padding: 0rem;
-    }
-  
-    .container-center {
-      width: auto;
-    }
-    .link-primary{
-    width:8rem;
-      display:block;
-      margin:.9rem 0;
-      
-    }
-   
   } */
+
+  @media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+  .nav-pills li{
+    padding: 0;
+  }
+  .resume{
+    left:7em;
+  
+  }
+}
