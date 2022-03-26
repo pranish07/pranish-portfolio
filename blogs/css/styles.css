@@ -48,3 +48,20 @@
   padding: 0.3rem 0.7rem;
  
 }
+@media screen and (max-width: 700px) {
+  .blog-public{
+    display: flex;
+    flex-direction: column;
+  }
+  .align-left{
+    gap: 2rem;
+  }
+ .blog-tags{
+   font-size: .7rem;
+ }
+ .blog-url{
+    left: 7.5em;
+ }
+
+}
+  
