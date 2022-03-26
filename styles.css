@@ -158,10 +158,13 @@ body {
   }
 
   .nav-pills li {
-    padding: 2em;
+    padding: .1em;
   }
   .resume {
     left: 7em;
+  }
+  .social-links li{
+    padding: .1em;
   }
   /* .link {
     padding: 0;
