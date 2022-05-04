@@ -146,7 +146,7 @@ body {
       height: 100%;
     }
   } */
-
+/* 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
   only screen and (-o-min-device-pixel-ratio: 3/2),
   only screen and (min--moz-device-pixel-ratio: 1.5),
@@ -158,7 +158,7 @@ body {
   }
 
   .nav-pills li {
-    padding: 0em;
+    padding: 0em
   }
   .resume {
     left: 7em;
@@ -166,7 +166,5 @@ body {
   .social-links li{
     padding: .1em;
   }
-  /* .link {
-    padding: 0;
-  } */
-}
+
+} */
